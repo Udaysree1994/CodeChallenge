@@ -3533,7 +3533,7 @@
       "outputPath": "/Users/uday/Documents/source/CodeChallenge/name.sorter/name.sorter.tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/uday/.nuget/NuGet/NuGet.Config"
+        "/Users/uday/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"

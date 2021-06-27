@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using name.sorter;
 
 namespace namesorter
 {
-    public class NameSortingService
+    public class NameSortingService : INameSortingService
     {
 
         public string[] GetTextFromFile(string fileName)
