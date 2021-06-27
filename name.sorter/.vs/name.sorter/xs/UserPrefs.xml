@@ -1,17 +1,20 @@
 ﻿<Properties StartupConfiguration="{459E5094-3202-4814-8BBB-9E38AB08E67B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="name.sorter/EmptyTextFile.txt">
+  <MonoDevelop.Ide.ItemProperties.name.sorter.tests FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="name.sorter.tests/UnitTest1.cs">
     <Files>
       <File FileName="name.sorter/Driver.cs" Line="15" Column="1" />
-      <File FileName="name.sorter/NameSortingService.cs" Line="55" Column="1" />
-      <File FileName="name.sorter/Name.cs" Line="17" Column="1" />
-      <File FileName="name.sorter/EmptyTextFile.txt" Line="1" Column="1" />
+      <File FileName="name.sorter/NameSortingService.cs" />
+      <File FileName="name.sorter/Name.cs" />
+      <File FileName="name.sorter.tests/UnitTest1.cs" Line="3" Column="19" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="name.sorter" expanded="True">
-            <Node name="name.sorter" expanded="True">
-              <Node name="EmptyTextFile.txt" selected="True" />
+            <Node name="name.sorter" expanded="True" />
+            <Node name="name.sorter.tests" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="UnitTest1.cs" selected="True" />
             </Node>
           </Node>
         </State>
