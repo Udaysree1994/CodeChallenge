@@ -7,3 +7,4 @@ Steps to run:
 2. Enter the following command: dotnet run filename
 3. Output with the sorted names will be displayed to the screen
 4. A file names "sorted-names-list.txt" will be generated with the sorted names
+5. To test the project, enter the following command: dotnet test
