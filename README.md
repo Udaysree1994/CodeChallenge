@@ -1,6 +1,7 @@
 A simple name sorting project which sorts a list of given names by last name and first name.
 
-Built using .NET Core 3.1
+Built using .NET Core 3.1, xUnit for unit testing and LINQ for sorting
+
 
 Steps to run:
 1. Go to the project directory
