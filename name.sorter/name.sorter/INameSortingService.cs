@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using namesorter;
 
+/// <summary>
+/// Interface to hold the necessary functionalities
+/// </summary>
 namespace name.sorter
 {
     public interface INameSortingService

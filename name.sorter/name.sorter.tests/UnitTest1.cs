@@ -13,7 +13,7 @@ namespace name.sorter.tests
         List<Name> unsortedNames = new List<Name>();
         string names = "";
 
-
+        
         public UnitTest1()
         {
             sortedNames.Add(new Name("Marin", "Alvarez"));
@@ -33,6 +33,7 @@ namespace name.sorter.tests
 
         }
 
+        //unit test to check if the sort method sorts the names correctly
         [Fact]
         public void Test1()
         {

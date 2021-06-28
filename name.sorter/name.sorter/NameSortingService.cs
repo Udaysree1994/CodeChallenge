@@ -4,11 +4,17 @@ using System.IO;
 using System.Linq;
 using name.sorter;
 
+/// <summary>
+/// Service class to perform all the functionalities required for the name sorter program
+/// </summary>
+
+
 namespace namesorter
 {
     public class NameSortingService : INameSortingService
     {
 
+        //reading from file
         public string[] GetTextFromFile(string fileName)
         {
             var nameText = System.IO.File.ReadAllLines(fileName);
@@ -16,6 +22,7 @@ namespace namesorter
             return nameText;
         }
 
+        //writing to file for given list of sorted names and filename
         public void WriteSortedNamesToFile(IEnumerable<Name> names, string fileName)
         {
 
@@ -28,6 +35,7 @@ namespace namesorter
             }
         }
 
+        //sorting by last name then by first name using LINQ for a given unsorted list of name objects
         public IEnumerable<Name> NameSorter(List<Name> unsortedNames)
         {
             var sortedNames =
@@ -38,6 +46,7 @@ namespace namesorter
             return sortedNames;
         }
 
+        //getting last name from string and assigning to lastName field and assigning remaining string to firstName field
         public Name GenerateFirstAndLastNames(string name)
         {
             var nameParts = name.Split(' ');

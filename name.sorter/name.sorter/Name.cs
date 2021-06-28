@@ -1,4 +1,8 @@
 ﻿using System;
+
+/// <summary>
+/// Name class to store firstname and lastname
+/// </summary>
 namespace namesorter
 {
     public class Name
